@@ -1,0 +1,121 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background: color #f9f9f9;;
+  padding:50px 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 770px;
+  width: 100%;
+  margin:0 auto;
+}
+.main_body{
+  height: 750px;
+  width: 590px;
+  background-color: whitesmoke;
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  font-size: 30px;
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+  
+}
+
+.heading_head{
+  font-size: 70px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+span{
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+ 
+}
+.main_text{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  
+}
+.country{
+ 
+  width: 10px;
+  
+  
+  
+}
+.main_text .country span{
+  font-size: 5px;
+  font-weight: 900;
+  opacity: 0.6;
+}
+
+
+.colours{
+   width: 40px;
+   margin-bottom: 48px;
+   margin-right: 300px;
+   
+ 
+}
+
+
+
+.main_text .colours span{
+  font-size: 5px;
+  font-weight: 900;
+  opacity: 0.7;
+  
+}
+
+
+.third{
+  font-size: 7px;
+  margin-bottom: 0px;
+  opacity: 0.6;
+}
+
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.box{
+  height: 120px;
+  width: 120px;
+  background-color: rgb(163, 185, 202);
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.wrapper_2{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+
+}
+.box_2{
+  height: 120px;
+  width: 120px;
+  background-color: rgb(74, 74, 75);
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.wrapper_3{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.box_3{
+  height: 130px;
+  width: 120px;
+  background-color: rgb(78, 146, 117);
+  border-radius: 50%;
+  margin-left: 20px;
+}
